@@ -36,8 +36,6 @@ export const dropdownLanguageList = [
   },
 ];
 
-console.log("esto se ejecuta ", resources);
-
 i18n.use(initReactI18next).init({
   resources,
   lng: "EN",

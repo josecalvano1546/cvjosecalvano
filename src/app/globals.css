@@ -1,13 +1,42 @@
 :root {
-  --text: red;
+  /* Navigation bar */
+  --navbackgroundDesktop: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    #f9f9ff 50%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  --navbackground: #f9f9ff;
+  --logoColor: #353353;
+  --logoDot: #ff2442;
+  --linkColor: #353353;
+  --navBgMobile: #f9f9ff
 }
 
 body {
-  color: #000;
-  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+a.active {
+  color: #f9d74c;
+}
+
+[data-theme="dark"] a.active {
+  color: #f84c60;
 }
 
 [data-theme="dark"] body {
-  background-color: #000;
-  --text: blue;
+  /* Navigation bar */
+  --navbackgroundDesktop: linear-gradient(
+    180deg,
+    rgba(53, 51, 83, 0.8) 14.58%,
+    #302f4e 48.44%,
+    rgba(53, 51, 83, 0.8) 90.62%
+  );
+  --navbackground: #353353;
+  --logoColor: #ffffff;
+  --logoDot: #fbc108;
+  --linkColor: #ffffff;
+  --navBgMobile: #353353
 }

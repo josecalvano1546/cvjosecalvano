@@ -1,5 +1,10 @@
 {
-  "TEXT": {
-    "TEST": "This is an english example"
+  "NAVBAR": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "EDUCATION": "Education",
+    "PORTFOLIO": "Portfolio",
+    "CONTACT": "Contact"
   }
 }

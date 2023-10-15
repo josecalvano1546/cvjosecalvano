@@ -1,5 +1,10 @@
 {
-  "TEXT": {
-    "TEST": "ejemplo en español"
+  "NAVBAR": {
+    "HOME": "Inicio",
+    "ABOUT": "Sobre mi",
+    "EXPERIENCE": "Experiencia",
+    "EDUCATION": "Educacion",
+    "PORTFOLIO": "Portafolio",
+    "CONTACT": "Contacto"
   }
 }

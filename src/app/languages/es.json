@@ -6,5 +6,10 @@
     "EDUCATION": "Educacion",
     "PORTFOLIO": "Portafolio",
     "CONTACT": "Contacto"
+  },
+  "HOME": {
+    "SUBTITLE_GREETING": "Soy ",
+    "SUBTITLE_ROL": "Ingeniero de Software",
+    "BUTTON": "Contratame"
   }
 }

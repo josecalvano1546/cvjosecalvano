@@ -1,4 +1,9 @@
 :root {
+  --bg-width: 0%;
+  /* Buttons */
+  --ButtonBg: #f9d74c;
+  --ButtonColor: #ffffff;
+
   /* Navigation bar */
   --navbackgroundDesktop: linear-gradient(
     180deg,
@@ -10,12 +15,23 @@
   --logoColor: #353353;
   --logoDot: #ff2442;
   --linkColor: #353353;
-  --navBgMobile: #f9f9ff
+  --navBgMobile: #f9f9ff;
+
+  /* Navigation bar */
+  --textColorHome: #353353;
+  --homeSectionBg: #ffffff;
+
+  /* Highlight */
+  --highlightColor: #3db2ff80;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+main {
+  /* overflow-x: hidden; */
 }
 
 a.active {
@@ -27,16 +43,21 @@ a.active {
 }
 
 [data-theme="dark"] body {
+  /* Buttons */
+  --ButtonBg: #f84c60;
+  --ButtonColor: #ffffff;
   /* Navigation bar */
-  --navbackgroundDesktop: linear-gradient(
-    180deg,
-    rgba(53, 51, 83, 0.8) 14.58%,
-    #302f4e 48.44%,
-    rgba(53, 51, 83, 0.8) 90.62%
-  );
+  --navbackgroundDesktop: #353353;
   --navbackground: #353353;
   --logoColor: #ffffff;
   --logoDot: #fbc108;
   --linkColor: #ffffff;
-  --navBgMobile: #353353
+  --navBgMobile: #353353;
+
+  /* Navigation bar */
+  --textColorHome: #ffffff;
+  --homeSectionBg: #353353;
+
+  /* Highlight */
+  --highlightColor: #43cfb1;
 }

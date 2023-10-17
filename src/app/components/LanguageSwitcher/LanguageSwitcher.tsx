@@ -7,12 +7,12 @@ import * as Styled from "./styles";
 import { useBrowserLanguageState } from "@/app/hooks/contexts/useBrowserLanguage";
 
 // Images
-import EN from "../../public/EN.svg";
-import ES from "../../public/ES.svg";
+import EN from "../../../../public/EN.svg";
+import ES from "../../../../public/ES.svg";
 
 const LanguageSwitcher = () => {
   const { browserLanguage, handleBrowserLanguage } = useBrowserLanguageState();
-  
+
   const handleClick = () => {
     handleBrowserLanguage(browserLanguage === "ES" ? "EN" : "ES");
   };

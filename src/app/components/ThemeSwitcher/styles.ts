@@ -22,7 +22,7 @@ export const Slider = styled.span`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #353353E6;
+  background-color: #353353e6;
   transition: 0.4s;
 
   ${SwitchInput}:checked + & {

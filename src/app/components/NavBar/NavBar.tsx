@@ -16,14 +16,12 @@ import ThemeSwitcher from "../ThemeSwitcher";
 import LanguageSwitcher from "../LanguageSwitcher";
 
 // Assets
-import NavBarMenuLight from "../../public/navBarMenuLight.svg";
-import NavBarMenuDark from "../../public/navBarMenuDark.svg";
+import NavBarMenuLight from "../../../../public/navBarMenuLight.svg";
+import NavBarMenuDark from "../../../../public/navBarMenuDark.svg";
 
 // Utils
 import { SECTIONS } from "@/app/utils/navBar";
-import { RampartOne } from "@/app/utils/fonts";
-
-
+import { RampartOne, RubikFont } from "@/app/utils/fonts";
 
 const NavBar = () => {
   const { t } = useTranslation("NAVBAR");
@@ -40,7 +38,7 @@ const NavBar = () => {
         offset={0}
         duration={500}
         activeClass="active"
-        className="RampartOne"
+        className={RubikFont.className}
         onClick={() => {
           setShowNavBar(!showNavBar);
         }}
@@ -57,7 +55,10 @@ const NavBar = () => {
           setShowNavBar(!showNavBar);
         }}
       >
-        <Image src={theme === "dark" ? NavBarMenuDark : NavBarMenuLight } alt="NavBar Menu icon" />
+        <Image
+          src={theme === "dark" ? NavBarMenuDark : NavBarMenuLight}
+          alt="NavBar Menu icon"
+        />
       </Styled.NavMobile>
 
       <Styled.ShadowBackground

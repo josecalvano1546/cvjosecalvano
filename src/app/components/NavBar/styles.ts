@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 
 export const NavContainer = styled.nav<{ $showNavBar?: boolean }>`
   display: flex;
+  z-index: 2;
   position: fixed;
   flex-direction: column;
   justify-content: space-around;
@@ -67,6 +68,7 @@ export const ButtonsContainer = styled.div`
 `;
 
 export const NavMobile = styled.div`
+  z-index: 2;
   display: flex;
   top: 0;
   left: 0;
@@ -84,7 +86,7 @@ export const NavMobile = styled.div`
 `;
 
 export const ShadowBackground = styled.div<{ $showNavBar?: boolean }>`
-  display: flex;
+  display: ${(props) => (props.$showNavBar ? "flex" : "none")};
   position: fixed;
   top: 0;
   left: 0;

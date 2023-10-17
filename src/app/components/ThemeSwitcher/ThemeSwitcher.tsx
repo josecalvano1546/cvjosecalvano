@@ -10,8 +10,8 @@ import { useTheme } from "next-themes";
 import * as Styled from "./styles";
 
 // Images
-import Moon from "../../public/moon.svg";
-import Sun from "../../public/sun.svg";
+import Moon from "../../../../public/moon.svg";
+import Sun from "../../../../public/sun.svg";
 
 const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();
